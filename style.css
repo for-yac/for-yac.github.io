@@ -139,6 +139,25 @@ body{
     color: rgb(255, 255, 255);
 }
 
+
+.texts>.Warp,.musics>.Warp{
+    animation-name: warpText;
+    animation-delay: 2s;
+    animation-duration: 2s;
+}
+@keyframes warpText {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-30%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+
 /* -------------------- musics -------------------- */
 .music{
     background-color: black;
