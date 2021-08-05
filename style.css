@@ -75,7 +75,6 @@ body{
     flex-direction: column;
     justify-content: space-between;
     padding: 10px 20px;
-    height: 90vh;
     overflow: hidden;
 }
 .mainC>*{
@@ -109,10 +108,10 @@ body{
     line-height: 1.5;
 }
 .texts{
-    height: 30%;
+    height: 200px;
 }
 .imags{
-    height: 30%;
+    height: 200px;
 }
 /* -------------------- texts -------------------- */
 .text{
