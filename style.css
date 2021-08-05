@@ -5,6 +5,9 @@
     outline: none;
     user-select: none;
 }
+::-webkit-scrollbar{
+    display: none;
+}
 body{
     font-family: system-ui;
     /* background-color: white; */
