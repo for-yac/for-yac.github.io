@@ -74,9 +74,12 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px 20px;
     height: 90vh;
     overflow: hidden;
+}
+.mainC>*{
+    margin: 5px 0;
 }
 .rail{
     width: 100%;
