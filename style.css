@@ -79,7 +79,7 @@ body{
     overflow: hidden;
 }
 .mainC>*{
-    padding: 5px 0;
+    margin: 5px 0;
 }
 .rail{
     width: 100%;
@@ -155,9 +155,10 @@ body{
 }
 .music>img{
     width: 110%;
+    height: 110%;
     opacity: 0.9;
     filter: saturate(0);
-    
+    display: block;
 }
 
 
