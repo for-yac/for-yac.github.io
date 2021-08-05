@@ -10,7 +10,7 @@ let music = document.getElementById("music")
 
 
 btnLogin.addEventListener("click", () => {
-    if (inputLogin.value == "5") {
+    if (inputLogin.value == "2460506244") {
         res.innerHTML = "Awlliiee"
         setTimeout(() => {
             step1.style.transitionDuration = "1s";
